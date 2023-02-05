@@ -1,20 +1,32 @@
-import "./App.css";
+import '../css/main.css'
 
-function App() {
+function Home() {
+  const F = {
+
+    image0: 'assets/image-hero.jpg',
+    image1: "assets/image-grid-1.jpg",
+    image2: "assets/image-grid-2.jpg",
+    image3: "assets/image-grid-3.jpg",
+    arrowRight: "assets/icon-arrow-right.svg",
+  };
+
+  
   return (
     <div className="home">
       <div className="header">
         <div className="header-background">
           <div className="black-background"></div>
-          <img className="bg-img" src="assets/image-hero.jpg" />
+          <img className="bg-img" src={F.image0} />
           <h1 className="header-title">
             MODERN <br /> ART GALLERY
           </h1>
         </div>
         <div className="location-btn">
-          <div className="location-div">OUR LOCATION</div>
+          <a href={"location"} className="location-div">
+            OUR LOCATION
+          </a>
           <div className="arrow-right">
-            <img src="assets/icon-arrow-right.svg" />
+            <img src={F.arrowRight} />
           </div>
         </div>
         <p>
@@ -34,13 +46,13 @@ function App() {
               process.
             </p>
           </div>
-          <img src="assets/image-grid-1.jpg" />
+          <img src={F.image1} />
         </div>
         <div className="grid-2">
-          <img src="assets/image-grid-2.jpg" />
+          <img src={F.image2} />
         </div>
         <div className="grid-3">
-          <img src="assets/image-grid-3.jpg" />
+          <img src={F.image3} />
         </div>
         <div className="grid-4">
           <p>COME & BE INSPIRED</p>
@@ -86,4 +98,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
