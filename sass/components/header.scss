@@ -7,10 +7,11 @@
 }
 
 .black-background{
+    display: flex;
     width: 450px;
     height: 800px;
-    /* position: absolute; */
     background-color: #151515;
+    position: relative;
 }
 
 .first-container{
@@ -26,8 +27,8 @@
     width: 514px;
     position: absolute;
     height: 176px;
-    left: 14.94%;
-    right: 46.75%;
+    left: 52.94%;
+    right: 58.75%;
     top: calc(50% - 176px/2 - 122px);
     font-family: 'Big Shoulders Display';
     font-style: normal;
@@ -46,21 +47,21 @@
     position: absolute;
     width: 350px;
     height: 160px;
-    left: 58.55%;
-    right: 0%;
-    top: calc(50% - 160px/2 - 130px);
+    right: -177.55%;
+    top: 23%;
     font-family: 'Outfit';
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
     line-height: 32px;
     color: #444444;
+    margin: 0;
 }
 
 .location-btn{
     position: absolute;
-    bottom: 35%;
-    right: 27%;
+    bottom: 37%;
+    right: -159%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -100,5 +101,7 @@
     align-items: center;
     justify-content: center;
     background-color: #D5966C;
-    transition: 0.5s;
-}
+    transition: 0.5s;      
+}      
+
+    
