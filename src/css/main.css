@@ -211,9 +211,9 @@
   color: #FFFFFF; }
 
 .footer-container h2 {
+  font-family: 'Big Shoulders Display';
   margin: 0;
   color: #FFFFFF;
-  font-family: 'Outfit';
   font-style: normal; }
 
 .socials svg {
@@ -225,3 +225,88 @@
 
 .socials path:hover {
   fill: #D5966C; }
+
+.locationImg {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: black;
+  transition: 0.5s;
+  left: 20%; }
+
+.back-a {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3.63636px;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 24px;
+  transition: .5s;
+  text-decoration: none; }
+
+.back-a:hover {
+  text-transform: none; }
+
+.arrow-left {
+  width: 56px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D5966C;
+  transition: 0.5s; }
+
+.back-btn:hover {
+  background-color: #D5966C;
+  opacity: 0.8; }
+
+.back-btn:hover + .arrow-left {
+  background-color: #151515; }
+
+.section-div {
+  background-color: #151515;
+  padding: 50px 0px 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around; }
+
+.information-div p:first-child {
+  margin: 0; }
+
+.information-div p:last-child {
+  width: 540px;
+  height: 128px;
+  margin: 0; }
+
+.h1-div h1 {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+
+.information-div h2 {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #D5966C; }
+
+.information-div p {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+  color: #FFFFFF; }

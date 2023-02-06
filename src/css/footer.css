@@ -1,0 +1,38 @@
+.footer {
+  margin-top: 20px;
+  display: grid;
+  height: 244px;
+  background-color: #151515; }
+
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-top: 85px; }
+
+.footer-container p {
+  margin: 0;
+  width: 430px;
+  height: 84px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF; }
+
+.footer-container h2 {
+  font-family: 'Big Shoulders Display';
+  margin: 0;
+  color: #FFFFFF;
+  font-style: normal; }
+
+.socials svg {
+  margin-left: 15px;
+  cursor: pointer; }
+
+.socials path {
+  transition: 0.3s; }
+
+.socials path:hover {
+  fill: #D5966C; }
