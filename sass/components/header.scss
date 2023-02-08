@@ -1,5 +1,8 @@
 .header{
     margin-bottom: 100px;
+    @media (max-width : 1250px){
+        
+    }
 }
 
 .header-background{
@@ -102,6 +105,7 @@
     justify-content: center;
     background-color: #D5966C;
     transition: 0.5s;      
-}      
+}
+
 
     
